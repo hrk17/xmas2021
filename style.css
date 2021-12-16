@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+.main {
+    background-image: url("christmasvillage.png");
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+h1 {
+    color: rgb(230, 246, 255) !important;
+    text-align: center;
+    margin: 0;
+}
+
+a {
+    color: rgb(146, 204, 219) !important;
+}
+
+a:hover {
+    color: rgb(197, 175, 216) !important;
+}
+
+#pollo, #huevo {
+    background-size: 150px 150px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 65vh;
+}
+
+#pollo {
+    background-image: url("pollo.png");
+    left: 67vw;
+    
+}
+
+#huevo {
+    background-image: url("huevo.png");
+    left: 58vw;
+}
