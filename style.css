@@ -1,9 +1,20 @@
+:root {
+    --mtndark: #0d002a;
+    --lightbluetree: #aad9ff;
+    --titlecolor: #e6f6ff;
+    --linkbase: #92ccdb;
+    --moon: #fbb03b;
+    --linkhover: var(--moon);
+    --snow: #d4fffe;
+    --mediumblue: #7f9dff;
+} 
+
 body {
     margin: 0;
 }
 
 .main {
-    background-image: url("christmasvillage.png");
+background-image: url("christmasvillage.png");
     background-size: cover;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     width: 100vw;
@@ -12,17 +23,17 @@ body {
 }
 
 h1 {
-    color: rgb(230, 246, 255) !important;
+    color: var(--titlecolor) !important;
     text-align: center;
     margin: 0;
 }
 
 a {
-    color: rgb(146, 204, 219) !important;
+    color: var(--linkbase) !important;
 }
 
 a:hover {
-    color: rgb(197, 175, 216) !important;
+    color: var(--linkhover) !important;
 }
 
 #pollo, #huevo {
@@ -42,4 +53,22 @@ a:hover {
 #huevo {
     background-image: url("huevo.png");
     left: 58vw;
+}
+
+
+.monthbtn {
+    background-color: var(--mediumblue);
+    width: 10vw;
+    height: 10vh;
+    font-size: 3vmin !important;
+    color: var(--mtndark) !important;
+    border: 2px solid var(--snow) !important;
+    border-radius: 10px !important;
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.monthbtn:hover {
+    background-color: var(--snow);
 }
