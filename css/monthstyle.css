@@ -1,0 +1,105 @@
+:root {
+    --mtndark: #0d002a;
+    --lightbluetree: #aad9ff;
+    --titlecolor: #e6f6ff;
+    --linkbase: #92ccdb;
+    --moon: #fbb03b;
+    --linkhover: var(--moon);
+    --snow: #d4fffe;
+    --mediumblue: #7f9dff;
+} 
+
+body {
+    margin: 0;
+}
+
+.main {
+background-image: url("../christmasvillage.png");
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+h1 {
+    color: var(--titlecolor) !important;
+    text-align: center;
+    margin: 0;
+}
+
+a {
+    color: var(--linkbase) !important;
+}
+
+a:hover {
+    color: var(--linkhover) !important;
+}
+
+#pollo, #huevo {
+    background-size: 150px 150px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+#couple {
+    width: 300px;
+    height: 150px;
+    top: 80vh;
+    position: absolute;
+    display: flex;
+}
+
+#pollo {
+    background-image: url("../pollo.png");
+    z-index: 1;
+}
+
+#huevo {
+    background-image: url("../huevo.png");
+    z-index: 0;
+}
+
+.row {
+    display: inline-block !important;
+    text-align: center;
+}
+
+img {
+    height: 25vh;
+    width: auto;
+    border: 10px solid var(--lightbluetree) !important;
+}
+
+.textbox-bg, .textbox {
+    width: 75vw;
+    margin: auto;
+    text-align: center;
+}
+
+.textbox-bg {
+    z-index: 0;
+    background-color: var(--lightbluetree);
+    border: 2px solid var(--mtndark);
+}
+
+.textbox {
+    color: var(--mtndark);
+}
+
+.quoteboardtitle {
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.quoteboard {
+    font-style: italic;
+}
+
+p {
+    font-size: larger;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
