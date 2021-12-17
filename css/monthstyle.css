@@ -68,7 +68,7 @@ a:hover {
 
 img {
     height: 25vh;
-    width: auto;
+    width: 18vw;
     border: 10px solid var(--lightbluetree) !important;
 }
 
@@ -101,5 +101,9 @@ p {
     font-size: larger;
     padding-left: 1%;
     padding-right: 1%;
+}
+
+.skinny {
+    margin: 5px !important;
 }
 
