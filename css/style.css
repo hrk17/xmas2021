@@ -46,13 +46,13 @@ a:hover {
 
 #pollo {
     background-image: url("../pollo.png");
-    left: 67vw;
+    left: 5vw;
     
 }
 
 #huevo {
     background-image: url("../huevo.png");
-    left: 58vw;
+    left: 14vw;
 }
 
 .monthbtn, .letterbtn {
@@ -85,15 +85,19 @@ a:hover {
     color: var(--moon);
     margin: auto;
     width: 50vw;
+    height: 70vh;
     border: 1px solid var(--snow);
-    text-align: center;
+    text-align: justify;
     border-radius: 2px;
 }
 
 .textbox {
-    width: 50vw;
+    padding-top: 2vh;
+    width: 47vw;
+    height: 68vh;
     margin: auto;
-    text-align: center;
+    text-align: justify;
+    overflow: scroll;
 }
 
 p {
