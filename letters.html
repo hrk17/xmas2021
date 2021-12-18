@@ -12,6 +12,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="script.js"></script>
+        <script src="toggleletters.js"></script>
     </head>
     <body>
         <div class = "main">
@@ -27,10 +28,89 @@
                 </li>
               </ul>
             <h1>
-                Merry Christmas, Carrie!
+                Letters for the Jiffy
             </h1>
             <div id="pollo"></div>
             <div id="huevo"></div>
+
+            <div class="row btn w-100">
+                <div class="letterbtn btn" onclick="showYouLetter()">About You</div>
+                <div class="letterbtn btn" onclick="showMeLetter()">About Me</div>
+                <div class="letterbtn btn" onclick="showUsLetter()">About Us</div>
+            </div>
+
+            <div class="textbox-bg" id="youletter" style="display: none;">
+                <div class="textbox">
+                <p>
+                    Dear Carrie, <br/>
+                    I love you so very much. Over the last two-ish years of knowing you and almost two years of dating you,
+                    you've genuinely made me a better and happier person, because /you/ are such a good person who knows 
+                    how to find the happies in life. <br/>
+                    From the moment I met you, I admired your intelligence. You have a ridiculously impressive brain, and it's 
+                    something that everyone picks up on pretty swiftly upon meeting you. I love the creative things you come up 
+                    with, whether it be code, a well-composed b&w shot, or extremely sweet gifts. Both in terms of pure intelligence 
+                    and creativity/art, your brain is amazing. <br/>
+                    Beyond the intelligence, though, you're such a sweet human being. You're the Mom Friend (TM) because you care 
+                    deeply about people but also because people feel comfortable coming to you. You don't judge, and you're ready 
+                    to be There and do your best to help people when they fall. You have the best heart, and that's something I 
+                    adore about you. <br/>
+                    You're also so fun to laugh with! You have a great sense of humor, and I feel like I'm regularly lol-ing on the 
+                    floor around you. Beyond just me, you make people feel comfortable opening up and being a bit goofy, and that's 
+                    a trait I really love of yours. <br/>
+                    Beyond the personality, you're also so attractive bro. I can't even express it. You're both very cute and 
+                    very hot at the same time, and it's the best. The beanie and hair are absolutely adorable, but even before your 
+                    junior year makeover, back when you had different glasses and a ponytail — you were still very very cute, and 
+                    10/10 I would have wanted to wife you, if I'd known you back then. <br/>
+                    You're a strong, sweet, thoughtful, wonderful human being who I couldn't feel luckier to be dating, or just to know 
+                    and be friends with at all. &lt;3
+                </p>
+                </div>
+            </div>
+            <div class="textbox-bg" id="meletter" style="display: none;">
+                <div class="textbox">
+                    <p>
+                        Dear Carrie, <br/>
+                        You make me want to be a better person. And not just in the cliche "oh you make me better!" way, but like, 
+                        actually, better. There are lots of things about myself that I've been confronting this year, and none 
+                        of them are fully new to me, but being with you has been the first time I've looked these things like 
+                        jealousy and insecure attachment styles in the eye and realized it's time to genuinely put effort into 
+                        changing them. There is a lot of unhappiness and darkness in my past that I have to grapple with in 
+                        unwinding these things, and I wish it were simpler or faster to get out of patterns drilled into me 
+                        over years of very shitty life-things. But it's worth diving into these things, because it makes me a better 
+                        person and a better partner to you, and that's what I want to be. <br/>
+                        Being in MN with you showed me what healthy and open communication looks like, and how it looks to do things 
+                        like apologize without fear, or accept that you've messed up and that people still love you, anyways. It's 
+                        going to continue to be a long road for me to internalize those things, and I hope you can be patient with 
+                        me along the way as I learn how. You've been a good role model, and have already changed the way I move through 
+                        the world and apologize and be open with people. Thank you for that. <br/>
+                        I know I have been a part of making this year stressful for you, and I hate that — for what it's worth, I've 
+                        made it stressful for me too every time I've stressed you out, and I want you to know that I'm never /not/ aware 
+                        when I do something that doesn't feel good for you. I never do anything like making you feel guilty intentionally, 
+                        but I can see it after it happens, and I promise I am working on getting better at it. Being with someone as 
+                        wonderful and safe as you has made me realize how I was raised with my own needs and voice and boundaries constantly 
+                        erased, and that I had to fight and use guilt and anything I could out of desperation to just be heard and 
+                        treated with decency, because just talking or being polite never resulted in me being listened to. I've 
+                        been noticing this year how that's a pattern I need to break out of, and it's been harder than I thought to 
+                        break out of it, because I think growing up that way, for two decades, just imprints something fundamental in 
+                        the way you view yourself. It's not even conscious instinct when I communicate unhealthily when I don't feel heard 
+                        or understood — something about those situations just activates that scared child part of my brain that is 
+                        very very afraid and deeply hurt from never getting to have agency unless I cried. But I acknowledge all of this, 
+                        and am continuing to work on it, and I hope you will understand that I see, when I mess up, and don't like it, 
+                        and am always making notes of how I can do better. <br/>
+                        It's a very deep and long road for me, and it's hard to explain. Sometimes I feel ashamed of admitting these 
+                        things about myself, or admitting them to you, since your immediate family is so wholesome and supportive 
+                        and healthy — I worry I come across like some weird horrible person if I ever admit these things. But I 
+                        love you and want to be the best me I can be, because you are so ridiculously worth it, and that means 
+                        writing this letter and telling you I see these things and want to do better. This year has been a slow 
+                        process of being conscious of these things and their impact on you and us and me, and working towards 
+                        doing better. 
+                    </p>
+                </div>
+            </div>
+            <div class="textbox-bg" id="usletter" style="display: none;">
+                <p>hi!</p>
+            </div>
+
         </div>
     </body>
 </html>

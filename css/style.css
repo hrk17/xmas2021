@@ -55,11 +55,8 @@ a:hover {
     left: 58vw;
 }
 
-
-.monthbtn {
+.monthbtn, .letterbtn {
     background-color: var(--mediumblue);
-    width: 10vw;
-    height: 10vh;
     font-size: 3vmin !important;
     color: var(--mtndark) !important;
     border: 2px solid var(--snow) !important;
@@ -69,6 +66,36 @@ a:hover {
     justify-content: center;
 }
 
-.monthbtn:hover {
+.monthbtn {
+    width: 10vw;
+    height: 10vh;
+}
+
+.monthbtn:hover, .letterbtn:hover {
     background-color: var(--snow);
+}
+
+.letterbtn {
+    width: 30vw;
+    height: 10vh;
+}
+
+#youletter, #meletter, #usletter {
+    background-color: var(--mtndark);
+    color: var(--moon);
+    margin: auto;
+    width: 50vw;
+    border: 1px solid var(--snow);
+    text-align: center;
+    border-radius: 2px;
+}
+
+.textbox {
+    width: 50vw;
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    padding: 2px;
 }
